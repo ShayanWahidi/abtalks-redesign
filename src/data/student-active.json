@@ -1,0 +1,927 @@
+{
+  "student": {
+    "name": "Maya Torres",
+    "avatar": null,
+    "track": "Data Science",
+    "joinedDay": 1,
+    "currentDay": 24,
+    "currentStreak": 11,
+    "longestStreak": 11,
+    "freezeTokensTotal": 2,
+    "freezeTokensUsed": 1,
+    "totalDaysCompleted": 20,
+    "synergyPoints": 377,
+    "challengeLength": 60,
+    "badges": [
+      {
+        "id": "badge-first-submission",
+        "name": "First Steps",
+        "description": "Completed your first daily challenge.",
+        "earnedAt": "2026-07-16T20:15:00.000Z"
+      },
+      {
+        "id": "badge-5-challenges",
+        "name": "On a Roll",
+        "description": "Completed 5 daily challenges.",
+        "earnedAt": "2026-07-20T19:40:00.000Z"
+      },
+      {
+        "id": "badge-15-challenges",
+        "name": "Marathoner",
+        "description": "Completed 15 daily challenges.",
+        "earnedAt": "2026-07-30T18:05:00.000Z"
+      }
+    ]
+  },
+  "days": [
+    {
+      "day": 1,
+      "status": "completed",
+      "task": {
+        "title": "Explore your dataset",
+        "description": "Load a real dataset and document its shape, columns, and target variable.",
+        "requirements": [
+          "Choose a public dataset",
+          "Summarize rows, columns, and data types",
+          "Identify the prediction target"
+        ],
+        "difficulty": "Easy",
+        "estimatedMinutes": 30
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-1",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-1",
+        "submittedAt": "2026-07-16T18:17:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 13
+      }
+    },
+    {
+      "day": 2,
+      "status": "missed",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": {
+        "githubUrl": null,
+        "linkedinUrl": null,
+        "submittedAt": null
+      }
+    },
+    {
+      "day": 3,
+      "status": "completed",
+      "task": {
+        "title": "Clean your data",
+        "description": "Sanitize the dataset: fix types, drop duplicates, and standardize categorical values.",
+        "requirements": [
+          "Remove duplicate rows",
+          "Normalize column names",
+          "Convert columns to correct types"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 45
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-3",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-3",
+        "submittedAt": "2026-07-18T20:31:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 15
+      }
+    },
+    {
+      "day": 4,
+      "status": "completed",
+      "task": {
+        "title": "Visualize distributions",
+        "description": "Plot the distribution of each numeric column and note outliers.",
+        "requirements": [
+          "Histogram for each numeric column",
+          "Flag obvious outliers",
+          "Save a combined figure"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 40
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-4",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-4",
+        "submittedAt": "2026-07-19T21:38:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 17
+      }
+    },
+    {
+      "day": 5,
+      "status": "completed",
+      "task": {
+        "title": "Handle missing values",
+        "description": "Analyze missing data and fill or drop it with a justified strategy.",
+        "requirements": [
+          "Map missingness per column",
+          "Impute with a defensible strategy",
+          "Document the decisions"
+        ],
+        "difficulty": "Hard",
+        "estimatedMinutes": 60
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-5",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-5",
+        "submittedAt": "2026-07-20T22:45:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 20
+      }
+    },
+    {
+      "day": 6,
+      "status": "completed",
+      "task": {
+        "title": "Feature engineering basics",
+        "description": "Create at least three new features that could improve your model.",
+        "requirements": [
+          "Derive 3+ new features",
+          "Explain the rationale",
+          "Re-check data types"
+        ],
+        "difficulty": "Easy",
+        "estimatedMinutes": 25
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-6",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-6",
+        "submittedAt": "2026-07-21T17:12:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 22
+      }
+    },
+    {
+      "day": 7,
+      "status": "completed",
+      "task": {
+        "title": "Build a linear regression model",
+        "description": "Train a baseline linear regression and report its RMSE.",
+        "requirements": [
+          "Split train/test",
+          "Fit linear regression",
+          "Report RMSE and R2"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 50
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-7",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-7",
+        "submittedAt": "2026-07-22T18:19:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 25
+      }
+    },
+    {
+      "day": 8,
+      "status": "completed",
+      "task": {
+        "title": "SQL joins for analysis",
+        "description": "Practice joins and aggregations on a two-table schema.",
+        "requirements": [
+          "Join 2 tables on a key",
+          "Aggregate with GROUP BY",
+          "Write a window function"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 30
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-8",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-8",
+        "submittedAt": "2026-07-23T19:26:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 12
+      }
+    },
+    {
+      "day": 9,
+      "status": "completed",
+      "task": {
+        "title": "Time series decomposition",
+        "description": "Decompose a time series into trend, seasonality, and residual.",
+        "requirements": [
+          "Plot the series",
+          "Apply seasonal decomposition",
+          "Interpret the components"
+        ],
+        "difficulty": "Hard",
+        "estimatedMinutes": 45
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-9",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-9",
+        "submittedAt": "2026-07-24T20:33:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 18
+      }
+    },
+    {
+      "day": 10,
+      "status": "frozen",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": {
+        "githubUrl": null,
+        "linkedinUrl": null,
+        "submittedAt": null
+      }
+    },
+    {
+      "day": 11,
+      "status": "completed",
+      "task": {
+        "title": "Web scraping with Python",
+        "description": "Scrape a public site and save structured output to CSV.",
+        "requirements": [
+          "Choose a scrapeable site",
+          "Respect robots.txt",
+          "Save clean CSV output"
+        ],
+        "difficulty": "Easy",
+        "estimatedMinutes": 40
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-11",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-11",
+        "submittedAt": "2026-07-26T22:47:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 21
+      }
+    },
+    {
+      "day": 12,
+      "status": "pending",
+      "task": {
+        "title": "Build a classification model",
+        "description": "Train a logistic regression and evaluate precision and recall.",
+        "requirements": [
+          "Baseline accuracy",
+          "Confusion matrix",
+          "Report precision & recall"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 60
+      },
+      "submission": {
+        "githubUrl": null,
+        "linkedinUrl": null,
+        "submittedAt": null
+      }
+    },
+    {
+      "day": 13,
+      "status": "completed",
+      "task": {
+        "title": "Write a data pipeline",
+        "description": "Automate the load, clean, and transform steps into one script.",
+        "requirements": [
+          "Modularize the steps",
+          "Handle errors gracefully",
+          "Run end-to-end"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 25
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-13",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-13",
+        "submittedAt": "2026-07-28T18:21:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 14
+      }
+    },
+    {
+      "day": 14,
+      "status": "completed",
+      "task": {
+        "title": "PCA dimensionality reduction",
+        "description": "Reduce features with PCA and compare model performance.",
+        "requirements": [
+          "Fit PCA",
+          "Plot explained variance",
+          "Compare model scores"
+        ],
+        "difficulty": "Hard",
+        "estimatedMinutes": 50
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-14",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-14",
+        "submittedAt": "2026-07-29T19:28:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 19
+      }
+    },
+    {
+      "day": 15,
+      "status": "completed",
+      "task": {
+        "title": "A/B testing fundamentals",
+        "description": "Simulate or analyze an A/B test with correct statistics.",
+        "requirements": [
+          "Define the metric",
+          "Compute p-value",
+          "State the conclusion"
+        ],
+        "difficulty": "Easy",
+        "estimatedMinutes": 30
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-15",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-15",
+        "submittedAt": "2026-07-30T20:35:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 23
+      }
+    },
+    {
+      "day": 16,
+      "status": "completed",
+      "task": {
+        "title": "Optimize model hyperparameters",
+        "description": "Tune at least three hyperparameters with cross-validation.",
+        "requirements": [
+          "Use GridSearchCV or equivalent",
+          "Pick best params",
+          "Report best score"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 45
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-16",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-16",
+        "submittedAt": "2026-07-31T21:42:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 16
+      }
+    },
+    {
+      "day": 17,
+      "status": "completed",
+      "task": {
+        "title": "NLP text preprocessing",
+        "description": "Tokenize, normalize, and vectorize a text dataset.",
+        "requirements": [
+          "Lowercase + strip punctuation",
+          "Tokenize",
+          "Vectorize with TF-IDF"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 40
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-17",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-17",
+        "submittedAt": "2026-08-01T22:49:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 24
+      }
+    },
+    {
+      "day": 18,
+      "status": "completed",
+      "task": {
+        "title": "Create a dashboard",
+        "description": "Build a small dashboard showing your key metrics.",
+        "requirements": [
+          "3+ visualizations",
+          "Interactive filter",
+          "Share the link"
+        ],
+        "difficulty": "Hard",
+        "estimatedMinutes": 60
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-18",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-18",
+        "submittedAt": "2026-08-02T17:16:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 20
+      }
+    },
+    {
+      "day": 19,
+      "status": "completed",
+      "task": {
+        "title": "Deploy a model endpoint",
+        "description": "Expose your model through a simple REST API.",
+        "requirements": [
+          "Wrap model in FastAPI/Flask",
+          "Test the endpoint",
+          "Document usage"
+        ],
+        "difficulty": "Easy",
+        "estimatedMinutes": 25
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-19",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-19",
+        "submittedAt": "2026-08-03T18:23:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 18
+      }
+    },
+    {
+      "day": 20,
+      "status": "completed",
+      "task": {
+        "title": "Version your notebooks",
+        "description": "Set up DVC or git-based versioning for data and models.",
+        "requirements": [
+          "Track data with DVC",
+          "Track model artifacts",
+          "Add a README"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 50
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-20",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-20",
+        "submittedAt": "2026-08-04T19:30:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 15
+      }
+    },
+    {
+      "day": 21,
+      "status": "completed",
+      "task": {
+        "title": "Tell a story with data",
+        "description": "Write a concise analysis memo with charts that answer one question.",
+        "requirements": [
+          "Define a clear question",
+          "Include 2-3 supporting charts",
+          "Keep it under 500 words"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 30
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-21",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-21",
+        "submittedAt": "2026-08-05T20:37:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 22
+      }
+    },
+    {
+      "day": 22,
+      "status": "completed",
+      "task": {
+        "title": "Present your findings",
+        "description": "Record a short walkthrough or write a summary post.",
+        "requirements": [
+          "Recap the problem",
+          "Show key results",
+          "Share on LinkedIn"
+        ],
+        "difficulty": "Hard",
+        "estimatedMinutes": 45
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-22",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-22",
+        "submittedAt": "2026-08-06T21:44:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 26
+      }
+    },
+    {
+      "day": 23,
+      "status": "completed",
+      "task": {
+        "title": "Kaggle-style submission",
+        "description": "Prepare a submission-ready prediction file.",
+        "requirements": [
+          "Match required format",
+          "Validate the output",
+          "Upload a sample"
+        ],
+        "difficulty": "Easy",
+        "estimatedMinutes": 40
+      },
+      "submission": {
+        "githubUrl": "https://github.com/mayatorres/abtalks/day-23",
+        "linkedinUrl": "https://www.linkedin.com/posts/mayatorres/day-23",
+        "submittedAt": "2026-08-07T22:11:00.000Z",
+        "confirmed": true,
+        "synergyEarned": 17
+      }
+    },
+    {
+      "day": 24,
+      "status": "pending",
+      "task": {
+        "title": "Ship an API for your model",
+        "description": "Wrap your best model in a simple REST endpoint and document how to call it.",
+        "requirements": [
+          "Choose a model to expose",
+          "Create a FastAPI route",
+          "Add usage docs"
+        ],
+        "difficulty": "Medium",
+        "estimatedMinutes": 45,
+        "detail": {
+          "welcome": "Time to expose everything you've built. Today is about making your model usable by someone else.",
+          "context": "You've trained, tuned, and evaluated models all month. A model nobody can call is a notebook, not a product — today you'll turn it into an endpoint.",
+          "whatToDo": [
+            "Pick your best-performing model",
+            "Sketch the API shape before you write any code",
+            "Keep it tiny — one real route is enough"
+          ],
+          "taskInstructions": {
+            "intro": "Build a minimal REST API around your model.",
+            "steps": [
+              "Load your saved model at startup",
+              "Create a single /predict route",
+              "Accept a JSON payload and return a prediction",
+              "Add a health check route",
+              "Document one request/response example"
+            ]
+          },
+          "exampleOutput": "POST /predict\n{\"features\": [5.1, 3.5, 1.4, 0.2]}\n\nResponse:\n{\"prediction\": \"setosa\", \"confidence\": 0.98}",
+          "submissionNote": "Run it locally or deploy it, then share the endpoint URL with a short demo."
+        }
+      },
+      "submission": {
+        "githubUrl": null,
+        "linkedinUrl": null,
+        "submittedAt": null
+      }
+    },
+    {
+      "day": 25,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 26,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 27,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 28,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 29,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 30,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 31,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 32,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 33,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 34,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 35,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 36,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 37,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 38,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 39,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 40,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 41,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 42,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 43,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 44,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 45,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 46,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 47,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 48,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 49,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 50,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 51,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 52,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 53,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 54,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 55,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 56,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 57,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 58,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 59,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 60,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    }
+  ]
+}

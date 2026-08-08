@@ -1,0 +1,650 @@
+{
+  "student": {
+    "name": "Aarav Mehta",
+    "avatar": null,
+    "track": "Frontend Development",
+    "joinedDay": 1,
+    "currentDay": 1,
+    "currentStreak": 0,
+    "longestStreak": 0,
+    "freezeTokensTotal": 2,
+    "freezeTokensUsed": 0,
+    "totalDaysCompleted": 0,
+    "synergyPoints": 0,
+    "challengeLength": 60,
+    "badges": []
+  },
+  "days": [
+    {
+      "day": 1,
+      "status": "pending",
+      "task": {
+        "title": "Set up your development environment",
+        "description": "Get your machine ready for the 60-day challenge: install the toolchain, set up Git, and run a local dev server.",
+        "requirements": [
+          "Node.js 18+ installed",
+          "Git + GitHub account configured",
+          "Vite dev server running locally"
+        ],
+        "difficulty": "Easy",
+        "estimatedMinutes": 30,
+        "detail": {
+          "welcome": "Your 60-day sprint starts here — get the machine ready and ship your first commit today.",
+          "context": "Every day from now on ends the same way: code that's real and proof that's public. Today is the foundation — nothing fancy, just the toolchain that will carry you through the next 60 days.",
+          "whatToDo": [
+            "Install Node.js and Git",
+            "Create your project folder",
+            "Verify the dev server runs before you move on"
+          ],
+          "taskInstructions": {
+            "intro": "Set up a local environment you can ship from.",
+            "steps": [
+              "Install Node.js 18+",
+              "Configure Git with your identity",
+              "Create a Vite project",
+              "Run it locally",
+              "Make your first commit"
+            ]
+          },
+          "exampleOutput": "vite dev server running at:\n\n  Local:   http://localhost:5173/\n\n  ready in 320 ms",
+          "submissionNote": "Push your first commit and drop the repo URL below."
+        }
+      },
+      "submission": {
+        "githubUrl": null,
+        "linkedinUrl": null,
+        "submittedAt": null
+      }
+    },
+    {
+      "day": 2,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 3,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 4,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 5,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 6,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 7,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 8,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 9,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 10,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 11,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 12,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 13,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 14,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 15,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 16,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 17,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 18,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 19,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 20,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 21,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 22,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 23,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 24,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 25,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 26,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 27,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 28,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 29,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 30,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 31,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 32,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 33,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 34,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 35,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 36,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 37,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 38,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 39,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 40,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 41,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 42,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 43,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 44,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 45,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 46,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 47,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 48,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 49,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 50,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 51,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 52,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 53,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 54,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 55,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 56,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 57,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 58,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 59,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    },
+    {
+      "day": 60,
+      "status": "locked",
+      "task": {
+        "title": "Pick a track to unlock this day",
+        "description": "",
+        "requirements": []
+      },
+      "submission": null
+    }
+  ]
+}
