@@ -5,7 +5,7 @@ import Jobs from './pages/Jobs.jsx'
 import Explore from './pages/Explore.jsx'
 import Rewards from './pages/Rewards.jsx'
 import Profile from './pages/Profile.jsx'
-import ProfileSwitcher from './components/dev/ProfileSwitcher.jsx'
+import ProfileSwitcher from './components/demo/ProfileSwitcher.jsx'
 import AppShell from './components/shell/AppShell.jsx'
 import usePath from './hooks/usePath.js'
 
