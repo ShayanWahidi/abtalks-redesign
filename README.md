@@ -1,4 +1,4 @@
- <text align="center"># ABTalks 🚀 <br> ![ABTalks Banner](https://github.com/ShayanWahidi/abtalks-redesign/blob/6ddc546f6aa27927d562fe5bbb1fc7142244405f/ab1.jpeg)
+ <strong># ABTalks </strong> 🚀 <br> ![ABTalks Banner](https://github.com/ShayanWahidi/abtalks-redesign/blob/6ddc546f6aa27927d562fe5bbb1fc7142244405f/ab1.jpeg)
 
 ## 📖 Overview
 <b>ABTalks</b> is a redesigned platform aimed at providing a mobile-first, motivational experience** for Indian college students participating in a <b>60-day coding challenge</b>.  
