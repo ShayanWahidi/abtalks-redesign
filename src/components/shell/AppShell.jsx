@@ -12,8 +12,10 @@ function AppShell({ children }) {
       <div className="md:mx-auto md:max-w-4xl">
         <DashboardHeader student={student} />
         <ProfileSwitcher />
-        <div className="pb-20">{children}</div>
-        <Footer />
+        <div className="pb-24">
+          {children}
+          <Footer />
+        </div>
       </div>
       <BottomNav />
     </main>
