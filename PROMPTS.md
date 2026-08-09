@@ -425,7 +425,13 @@ px-2.5 py-1) so the row fits one line without wrapping at 390px.
 Verify: logo fully clear on /dashboard, /day/12, and a shell page; switcher sits cleanly
 underneath with no overlap; Landing shows neither the switcher nor Sign in.
 ```
+In AppShell.jsx, the content wrapper around <Outlet />/children needs bottom padding large enough to clear the fixed BottomNav (which is h-16, roughly 64px, plus safe-area on some devices). Check the current padding value — it's either missing entirely or too small (e.g. pb-4 instead of pb-20+).
 
+Fix: set the content wrapper to pb-24 (or higher if BottomNav has grown taller since the original spec, e.g. due to the "Demo:" profile-switcher row now also sitting in that fixed area — check whether BottomNav height changed and size the padding to match, don't just hardcode the original value blindly).
+
+Specifically re-check Footer.jsx itself too, since this is a shared component sitting inside AppShell on 6 different pages (/dashboard, /day/:n, /jobs, /rewards, /explore, /profile) \u2014 confirm the wordmark, copyright line, and full 5-icon social row all render with clear spacing above the nav bar, not squeezed against it, on every one of those routes. Landing (/) isn't affected since it isn't wrapped in AppShell and has no fixed bottom nav to clear.
+
+After the fix, verify at 390px specifically on /profile or /rewards (whichever has the shortest content \u2014 the overlap is worst on pages where Footer ends up closest to the viewport bottom on load)
 ---
 
 ## Data Model Notes (for reference, not prompts — authored directly, not via OpenCode)
