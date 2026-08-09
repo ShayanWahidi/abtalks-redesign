@@ -1,16 +1,55 @@
-# React + Vite
+# ABTalks 🚀 ![ABTalks Banner](ABTALKS.1.jpeg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 📖 Overview
+<b>ABTalks</b> is a redesigned platform aimed at providing a mobile-first, motivational experience** for Indian college students participating in a <b>60-day coding challenge</b>.  
+The redesign focuses on clarity, trust, and usability, helping students build consistency, track progress, and showcase their work to recruiters.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Aim
+“Redesign ABTalks to provide a mobile-first, motivational platform for Indian college students to track their 60-day coding challenge.”
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
+- **HTML, CSS, JavaScript**
+- **React + Vite** (frontend framework & bundler)
+- **TailwindCSS** (styling, mobile-first utilities)
+- **Mocked JSON data** (no production database)
+- **Deployment**: Vercel / Netlify
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+- **Landing Page (`/`)**
+  - Motivational hero section
+  - Clear CTA to start the challenge
+  - Trust signals (GitHub + LinkedIn visibility)
+
+- **Student Dashboard (`/dashboard`)**
+  - Current streak 🔥
+  - Progress tracking (days completed, percentage)
+  - Today’s task card
+  - Achievements & rewards 🏆
+  - Motivational quotes
+  - Edge case handling (first day, missed day, empty profile)
+
+- **Challenge Day (`/day/12`)**
+  - Task details (title + description)
+  - Submission form (GitHub commit + LinkedIn post)
+  - Status feedback (pending, completed, missed)
+
+- **Additional Features**
+  - Rewards system
+  - Jobs visibility section (future scope)
+
+---
+
+## 📂  Routes
+The project supports the following routes:
+/ <br>
+/dashboard <br>
+/day/12
+
+
+
